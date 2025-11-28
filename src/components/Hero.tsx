@@ -13,12 +13,13 @@ export default function Hero() {
                         </div>
 
                         <h1 className="text-5xl md:text-6xl lg:text-7xl font-black text-[var(--secondary)] leading-[1.1] mb-6">
-                            YJ효진쌤과 함께{" "}
+                            YJ 효진쌤과 함께{" "}
                             <span className="relative inline-block">
-                                <span className="relative z-10">자격증 취득을</span>
+                                <span className="relative z-10">자격증 취득을 쉽고</span><br>
+                                </br>
                                 <span className="absolute bottom-2 left-0 w-full h-4 bg-[var(--accent-yellow)] -z-0 -rotate-1"></span>
                             </span>{" "}
-                            보다 쉽게!
+                            빠르게!
                         </h1>
 
                         <p className="text-lg md:text-xl text-[var(--secondary)]/70 mb-8 max-w-lg">
@@ -89,6 +90,6 @@ export default function Hero() {
                     </div>
                 </div>
             </div>
-        </section>
+        </section >
     );
 }
