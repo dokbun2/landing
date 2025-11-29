@@ -10,7 +10,7 @@ export default function Hero() {
                     <div>
                         <div className="inline-flex items-center gap-2 neo-border bg-[var(--accent-yellow)] px-4 py-2 rounded-full mb-6 font-bold text-sm">
                             <span className="text-lg">⭐</span>
-                            <span>전국에 10만이 선택한 이곳 YJ에듀케이션</span>
+                            <span>전국 10만명이 선택한 YJ평생교육원</span>
                         </div>
 
                         <h1 className="text-5xl md:text-6xl lg:text-7xl font-black text-[var(--secondary)] leading-[1.1] mb-6">
@@ -23,15 +23,15 @@ export default function Hero() {
                         </h1>
 
                         <p className="text-lg md:text-xl text-[var(--secondary)]/70 mb-8 max-w-lg">
-                            The most comprehensive lifelong education platform designed to help you achieve your professional goals.
+                            사회복지사, 보육교사, 상담심리사 등 다양한 자격증 취득을 위한 최고의 평생교육 플랫폼입니다.
                         </p>
 
                         <div className="flex flex-wrap gap-4">
                             <button className="neo-btn bg-[var(--primary)] text-white px-8 py-4 rounded-xl font-bold text-lg flex items-center gap-2">
-                                Start Learning <ArrowRight size={20} />
+                                수강신청 <ArrowRight size={20} />
                             </button>
                             <button className="neo-btn bg-white px-8 py-4 rounded-xl font-bold text-lg flex items-center gap-2">
-                                <Play size={20} fill="currentColor" /> Watch Demo
+                                <Play size={20} fill="currentColor" /> 소개영상
                             </button>
                         </div>
                     </div>
@@ -40,7 +40,7 @@ export default function Hero() {
                     <div className="relative">
                         <div className="neo-border rounded-3xl overflow-hidden bg-gradient-to-b from-gray-100 to-gray-200 shadow-[8px_8px_0_var(--border)]">
                             <Image
-                                src="/images/hero-banner.png"
+                                src="/images/1.jpg"
                                 alt="사회복지사 자격증 - YJ평생교육원"
                                 width={600}
                                 height={500}

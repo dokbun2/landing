@@ -7,25 +7,25 @@ export default function Membership() {
                 <div className="grid md:grid-cols-2 gap-12 items-center">
                     <div>
                         <span className="neo-border bg-[var(--accent-orange)] px-4 py-2 rounded-full font-bold text-sm inline-flex items-center gap-2 mb-6">
-                            <Sparkles size={16} /> PREMIUM ACCESS
+                            <Sparkles size={16} /> 프리미엄 멤버십
                         </span>
                         <h2 className="text-4xl md:text-5xl font-black text-[var(--secondary)] mb-6 leading-tight">
-                            Superpower{" "}
+                            슈퍼파워{" "}
                             <span className="relative inline-block">
-                                <span className="relative z-10">Membership</span>
+                                <span className="relative z-10">멤버십</span>
                                 <span className="absolute bottom-2 left-0 w-full h-3 bg-[var(--accent-yellow)] -z-0"></span>
                             </span>
                         </h2>
                         <p className="text-lg text-[var(--secondary)]/70 mb-8">
-                            Get unlimited access to all courses, 1:1 mentoring, and exclusive career workshops with our annual membership.
+                            연간 멤버십으로 모든 과정 무제한 수강, 1:1 멘토링, 독점 커리어 워크샵을 이용하세요.
                         </p>
 
                         <ul className="space-y-4 mb-8">
                             {[
-                                { text: "Unlimited Course Access", color: "bg-[var(--accent-green)]" },
-                                { text: "Personal Career Mentor", color: "bg-[var(--accent-blue)]" },
-                                { text: "Certificate of Completion", color: "bg-[var(--accent-purple)]" },
-                                { text: "Offline Networking Events", color: "bg-[var(--accent-orange)]" },
+                                { text: "전 과정 무제한 수강", color: "bg-[var(--accent-green)]" },
+                                { text: "개인 커리어 멘토", color: "bg-[var(--accent-blue)]" },
+                                { text: "수료증 발급", color: "bg-[var(--accent-purple)]" },
+                                { text: "오프라인 네트워킹 행사", color: "bg-[var(--accent-orange)]" },
                             ].map((item, i) => (
                                 <li key={i} className="flex items-center gap-3">
                                     <div className={`neo-border ${item.color} w-8 h-8 rounded-lg flex items-center justify-center`}>
@@ -38,18 +38,18 @@ export default function Membership() {
 
                         <div className="neo-card bg-[var(--accent-yellow)] p-6 rounded-2xl mb-8">
                             <div className="flex items-baseline gap-2 mb-2">
-                                <span className="text-5xl font-black text-[var(--secondary)]">$499</span>
-                                <span className="font-bold text-[var(--secondary)]/70">/ year</span>
+                                <span className="text-5xl font-black text-[var(--secondary)]">₩499,000</span>
+                                <span className="font-bold text-[var(--secondary)]/70">/ 년</span>
                             </div>
-                            <p className="font-medium text-[var(--secondary)]/70">Save $200 compared to monthly</p>
+                            <p className="font-medium text-[var(--secondary)]/70">월간 결제 대비 ₩200,000 절약</p>
                         </div>
 
                         <button className="neo-btn bg-[var(--primary)] text-white px-8 py-4 rounded-xl font-bold text-lg w-full md:w-auto">
-                            Get Started Now
+                            지금 시작하기
                         </button>
 
                         <p className="mt-4 font-medium text-sm text-[var(--secondary)]/70">
-                            * 30-day money-back guarantee. Cancel anytime.
+                            * 30일 환불 보장. 언제든지 취소 가능.
                         </p>
                     </div>
 
@@ -63,7 +63,7 @@ export default function Membership() {
                             <div className="flex justify-between items-start z-10">
                                 <span className="text-3xl font-black">YJ<span className="opacity-80">EDU</span></span>
                                 <span className="neo-border bg-white text-[var(--secondary)] px-4 py-1 rounded-full font-bold text-sm">
-                                    PREMIUM
+                                    프리미엄
                                 </span>
                             </div>
 
@@ -79,11 +79,11 @@ export default function Membership() {
                                 </p>
                                 <div className="flex justify-between items-end">
                                     <div>
-                                        <p className="text-xs font-bold opacity-70 uppercase">Member Name</p>
-                                        <p className="font-black text-lg">SOHEE KIM</p>
+                                        <p className="text-xs font-bold opacity-70 uppercase">회원명</p>
+                                        <p className="font-black text-lg">김소희</p>
                                     </div>
                                     <div className="text-right">
-                                        <p className="text-xs font-bold opacity-70 uppercase">Valid Thru</p>
+                                        <p className="text-xs font-bold opacity-70 uppercase">유효기간</p>
                                         <p className="font-black text-lg">12/28</p>
                                     </div>
                                 </div>

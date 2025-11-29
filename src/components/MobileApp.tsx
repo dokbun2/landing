@@ -8,25 +8,25 @@ export default function MobileApp() {
                     {/* Left Content */}
                     <div>
                         <span className="neo-border bg-white px-4 py-2 rounded-full font-bold text-sm inline-block mb-6">
-                            MOBILE APP
+                            모바일 앱
                         </span>
                         <h2 className="text-4xl md:text-5xl font-black text-[var(--secondary)] mb-6 leading-tight">
-                            A personal career advisor{" "}
+                            내 손 안의{" "}
                             <span className="relative inline-block">
-                                <span className="relative z-10">in your pocket</span>
+                                <span className="relative z-10">개인 커리어 어드바이저</span>
                                 <span className="absolute bottom-2 left-0 w-full h-3 bg-[var(--accent-yellow)] -z-0"></span>
                             </span>
                         </h2>
                         <p className="text-lg text-[var(--secondary)]/70 mb-8">
-                            Access your courses, track your progress, and get expert advice anytime, anywhere with our mobile app.
+                            언제 어디서나 모바일 앱으로 과정을 수강하고, 진행 상황을 추적하고, 전문가 조언을 받으세요.
                         </p>
 
                         <div className="grid grid-cols-2 gap-4 mb-8">
                             {[
-                                { icon: Bell, title: "Smart Reminders", desc: "Never miss a class" },
-                                { icon: Calendar, title: "Schedule", desc: "Plan your study" },
-                                { icon: BookOpen, title: "Offline Mode", desc: "Learn anywhere" },
-                                { icon: Smartphone, title: "Cross-device", desc: "Sync seamlessly" },
+                                { icon: Bell, title: "스마트 알림", desc: "수업 놓치지 않기" },
+                                { icon: Calendar, title: "일정 관리", desc: "학습 계획 세우기" },
+                                { icon: BookOpen, title: "오프라인 모드", desc: "어디서나 학습" },
+                                { icon: Smartphone, title: "크로스 디바이스", desc: "원활한 동기화" },
                             ].map((item, i) => (
                                 <div key={i} className="neo-card bg-white p-4 rounded-xl">
                                     <div className="neo-border bg-[var(--accent-yellow)] w-10 h-10 rounded-lg flex items-center justify-center mb-3">
@@ -40,10 +40,10 @@ export default function MobileApp() {
 
                         <div className="flex gap-3">
                             <button className="neo-btn bg-[var(--secondary)] text-white px-6 py-3 rounded-xl font-bold flex items-center gap-2">
-                                <span className="text-xl">🍎</span> App Store
+                                <span className="text-xl">🍎</span> 앱스토어
                             </button>
                             <button className="neo-btn bg-white px-6 py-3 rounded-xl font-bold flex items-center gap-2">
-                                <span className="text-xl">▶️</span> Play Store
+                                <span className="text-xl">▶️</span> 플레이스토어
                             </button>
                         </div>
                     </div>
@@ -63,8 +63,8 @@ export default function MobileApp() {
                                 <div className="p-4 bg-[var(--background)]">
                                     <div className="flex justify-between items-center mb-6">
                                         <div>
-                                            <p className="text-xs font-bold text-[var(--secondary)]/70">Welcome back</p>
-                                            <h3 className="font-black">Sohee Kim</h3>
+                                            <p className="text-xs font-bold text-[var(--secondary)]/70">환영합니다</p>
+                                            <h3 className="font-black">김소희님</h3>
                                         </div>
                                         <div className="neo-border bg-[var(--accent-yellow)] w-10 h-10 rounded-full flex items-center justify-center">
                                             👩‍💼
@@ -72,19 +72,19 @@ export default function MobileApp() {
                                     </div>
 
                                     <div className="neo-card bg-[var(--primary)] text-white p-4 rounded-xl mb-4">
-                                        <p className="text-xs font-bold opacity-80 mb-1">Daily Goal</p>
+                                        <p className="text-xs font-bold opacity-80 mb-1">오늘의 목표</p>
                                         <div className="flex justify-between items-end">
                                             <span className="text-2xl font-black">85%</span>
-                                            <span className="neo-border bg-white/20 px-2 py-1 rounded-full text-xs font-bold border-white/30">Keep going!</span>
+                                            <span className="neo-border bg-white/20 px-2 py-1 rounded-full text-xs font-bold border-white/30">잘하고 있어요!</span>
                                         </div>
                                     </div>
 
-                                    <p className="font-black text-sm mb-3">Upcoming Classes</p>
+                                    <p className="font-black text-sm mb-3">예정된 수업</p>
                                     <div className="space-y-2">
                                         {[
-                                            { title: "Social Work Basics", time: "10:00 AM", color: "bg-[var(--accent-green)]" },
-                                            { title: "Psychology 101", time: "2:00 PM", color: "bg-[var(--accent-blue)]" },
-                                            { title: "Counseling Lab", time: "4:00 PM", color: "bg-[var(--accent-purple)]" },
+                                            { title: "사회복지 기초", time: "오전 10:00", color: "bg-[var(--accent-green)]" },
+                                            { title: "심리학 101", time: "오후 2:00", color: "bg-[var(--accent-blue)]" },
+                                            { title: "상담 실습", time: "오후 4:00", color: "bg-[var(--accent-purple)]" },
                                         ].map((cls, i) => (
                                             <div key={i} className="neo-border bg-white p-3 rounded-xl flex items-center gap-3">
                                                 <div className={`neo-border ${cls.color} w-8 h-8 rounded-lg`} />

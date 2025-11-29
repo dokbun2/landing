@@ -25,7 +25,7 @@ const menuData = {
                 image: "/images/support.jpg",
             },
             {
-                title: "FAQ",
+                title: "자주묻는질문",
                 description: "자주 묻는 질문에 대한 답변을 확인하세요.",
                 image: "/images/faq.jpg",
             },
@@ -195,17 +195,17 @@ function MobileMenu({ isOpen, onClose }: { isOpen: boolean; onClose: () => void 
                         </div>
                     ))}
                     <Link href="#" className="flex items-center gap-2 p-4 font-black text-[var(--secondary)] hover:bg-[var(--accent-green)] transition-colors">
-                        Community
+                        커뮤니티
                     </Link>
                 </div>
 
                 <div className="absolute bottom-0 left-0 right-0 p-4 border-t-3 border-[var(--border)] bg-[var(--background)]">
                     <div className="flex gap-3">
                         <button className="flex-1 py-3 font-bold text-[var(--secondary)] neo-btn bg-white rounded-lg">
-                            Login
+                            로그인
                         </button>
                         <button className="flex-1 py-3 font-bold text-white bg-[var(--primary)] rounded-lg neo-btn">
-                            Join Now
+                            회원가입
                         </button>
                     </div>
                 </div>
@@ -290,7 +290,7 @@ export default function Navbar() {
                                 onMouseEnter={() => setActiveDropdown(null)}
                                 className="px-4 py-2 font-bold text-[var(--secondary)] hover:bg-[var(--accent-green)] rounded-lg transition-colors"
                             >
-                                Community
+                                커뮤니티
                             </button>
                         </div>
                     </div>
@@ -298,10 +298,10 @@ export default function Navbar() {
                     <div className="flex items-center gap-3">
                         <button className="hidden md:flex items-center gap-2 px-4 py-2 font-bold text-[var(--secondary)] hover:bg-[var(--accent-purple)] rounded-lg transition-colors">
                             <User size={18} />
-                            <span>Login</span>
+                            <span>로그인</span>
                         </button>
                         <button className="neo-btn bg-[var(--primary)] text-white px-5 py-2 rounded-lg font-bold">
-                            Join Now
+                            회원가입
                         </button>
                         <button
                             onClick={() => setMobileMenuOpen(true)}

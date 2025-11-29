@@ -1,28 +1,28 @@
-import { CheckCircle, Clock, Globe, Award, Zap, Users } from "lucide-react";
+import { Clock, Globe, Award, Users } from "lucide-react";
 
 const features = [
     {
         icon: Clock,
-        title: "Flexible Schedule",
-        description: "Learn at your own pace, anytime",
+        title: "유연한 학습 시간",
+        description: "언제 어디서나 원하는 시간에 학습",
         color: "bg-[var(--accent-yellow)]",
     },
     {
         icon: Globe,
-        title: "100% Online",
-        description: "Access from anywhere in the world",
+        title: "100% 온라인",
+        description: "집에서 편하게 수강 가능",
         color: "bg-[var(--accent-blue)]",
     },
     {
         icon: Award,
-        title: "Certified",
-        description: "Get official certifications",
+        title: "공인 자격증",
+        description: "국가공인 자격증 취득 지원",
         color: "bg-[var(--accent-green)]",
     },
     {
         icon: Users,
-        title: "Expert Support",
-        description: "1:1 mentoring sessions",
+        title: "전문가 상담",
+        description: "1:1 맞춤 학습 상담 제공",
         color: "bg-[var(--accent-purple)]",
     },
 ];
@@ -33,17 +33,17 @@ export default function Features() {
             <div className="max-w-6xl mx-auto px-4">
                 <div className="text-center mb-16">
                     <span className="neo-border bg-white px-4 py-2 rounded-full font-bold text-sm inline-block mb-6">
-                        WHY CHOOSE US
+                        왜 YJ평생교육원인가요?
                     </span>
                     <h2 className="text-4xl md:text-5xl font-black text-[var(--secondary)] mb-6">
-                        A learning experience<br />
+                        이전과는 다른<br />
                         <span className="relative inline-block">
-                            <span className="relative z-10">like never before</span>
+                            <span className="relative z-10">학습 경험을 제공합니다</span>
                             <span className="absolute bottom-2 left-0 w-full h-3 bg-white -z-0"></span>
                         </span>
                     </h2>
                     <p className="text-lg text-[var(--secondary)]/70 max-w-xl mx-auto">
-                        We provide a flexible, expert-guided path to help you master new skills and advance your career.
+                        전문가의 안내와 함께 유연하게 새로운 기술을 습득하고 커리어를 발전시키세요.
                     </p>
                 </div>
 
@@ -68,7 +68,7 @@ export default function Features() {
 
                 <div className="mt-12 text-center">
                     <button className="neo-btn bg-[var(--secondary)] text-white px-8 py-4 rounded-xl font-bold text-lg">
-                        Explore All Features
+                        모든 특징 보기
                     </button>
                 </div>
             </div>

@@ -3,27 +3,27 @@ import { Heart, MessageCircle, Share2 } from "lucide-react";
 const testimonials = [
     {
         id: 1,
-        user: "Sarah J.",
-        handle: "@sarah_study",
-        content: "Finally got my Social Worker Level 2 certification! Thanks to YJ Edu for the amazing guidance. #SocialWork #Certified",
+        user: "김지영",
+        handle: "@jiyoung_study",
+        content: "드디어 사회복지사 2급 자격증 취득했어요! YJ평생교육원 덕분에 체계적으로 공부할 수 있었습니다. #사회복지사 #자격증취득",
         color: "bg-[var(--accent-blue)]",
         likes: 124,
         emoji: "👩‍💼",
     },
     {
         id: 2,
-        user: "Mike T.",
-        handle: "@mike_tech",
-        content: "The coding bootcamp was intense but worth it. Landed my first dev job today! #CareerChange #Developer",
+        user: "박민수",
+        handle: "@minsu_dev",
+        content: "코딩 부트캠프 힘들었지만 정말 가치있었어요. 오늘 첫 개발자 취업 성공! #커리어전환 #개발자",
         color: "bg-[var(--accent-purple)]",
         likes: 89,
         emoji: "👨‍💻",
     },
     {
         id: 3,
-        user: "Emily R.",
-        handle: "@emily_kids",
-        content: "Loving the Childcare course. The instructors are so supportive. Can't wait to start my practicum.",
+        user: "이수진",
+        handle: "@sujin_edu",
+        content: "보육교사 과정 정말 좋아요. 강사님들이 너무 친절하시고 실습도 알차게 진행됩니다. 실습 기대돼요!",
         color: "bg-[var(--accent-orange)]",
         likes: 256,
         emoji: "👩‍🏫",
@@ -37,18 +37,18 @@ export default function Testimonials() {
                 <div className="flex flex-col md:flex-row justify-between items-start md:items-end gap-6 mb-12">
                     <div>
                         <span className="neo-border bg-white px-4 py-2 rounded-full font-bold text-sm inline-block mb-4">
-                            SUCCESS STORIES
+                            수강생 후기
                         </span>
                         <h2 className="text-3xl md:text-4xl font-black text-[var(--secondary)]">
-                            See what our students{" "}
+                            수강생들의{" "}
                             <span className="relative inline-block">
-                                <span className="relative z-10">are achieving</span>
+                                <span className="relative z-10">생생한 후기</span>
                                 <span className="absolute bottom-2 left-0 w-full h-3 bg-[var(--accent-yellow)] -z-0"></span>
                             </span>
                         </h2>
                     </div>
                     <button className="neo-btn bg-[var(--secondary)] text-white px-6 py-3 rounded-xl font-bold">
-                        Follow Us
+                        팔로우하기
                     </button>
                 </div>
 
